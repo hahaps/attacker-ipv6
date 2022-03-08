@@ -13,14 +13,17 @@
 ```
 $ sudo apt-get install libpcap-dev libssl-dev
 ```
+
 2. 可选项 obscure 攻击， 安装以下依赖包:
 ```
 $ sudo apt-get install libnetfilter-queue-dev
 ```
+
 3. 编译：
 ```
 $ make
 ```
+
 4. 安装所有工具：
 ```
 $ sudo make install
@@ -31,14 +34,17 @@ $ sudo make install
 ```
 $ sudo yum install -y libpcap-devel libssl-devel
 ```
+
 2. 可选项 obscure 攻击， 安装以下依赖包:
 ```
 $ sudo yum install -y libnetfilter_queue-devel
 ```
+
 3. 编译：
 ```
 $ make
 ```
+
 4. 安装所有工具：
 ```
 $ sudo make install
